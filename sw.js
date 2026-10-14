@@ -1,7 +1,7 @@
 // Bump this name whenever the deployed shell changes.  Otherwise an installed
 // phone app can retain an old index.html that points at an asset removed by a
 // later deployment, leaving the screen blank.
-const CACHE_NAME = 'quange-os-v75-ux-fixes-1'
+const CACHE_NAME = 'quange-os-v76-income-categories-1'
 const APP_SHELL = [
   './',
   './index.html',
