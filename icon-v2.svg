@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="荃哥工作台">
+  <defs>
+    <linearGradient id="night" x1="96" y1="72" x2="928" y2="952" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16233a"/>
+      <stop offset="0.52" stop-color="#0d1728"/>
+      <stop offset="1" stop-color="#070c16"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="286" y1="222" x2="758" y2="794" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9dea0"/>
+      <stop offset="0.48" stop-color="#e4bb63"/>
+      <stop offset="1" stop-color="#b9802d"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.78 0 1 0 0 0.57 0 0 1 0 0.19 0 0 0 0.30 0" result="goldGlow"/>
+      <feMerge><feMergeNode in="goldGlow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#night)"/>
+  <rect x="38" y="38" width="948" height="948" rx="194" fill="none" stroke="#2a3a55" stroke-width="8"/>
+  <circle cx="476" cy="470" r="246" fill="none" stroke="#1d2b44" stroke-width="42"/>
+  <circle cx="476" cy="470" r="218" fill="none" stroke="url(#gold)" stroke-width="34" filter="url(#glow)"/>
+  <path d="M629 621 804 796" fill="none" stroke="url(#gold)" stroke-width="38" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M350 470h246M518 374l96 96-96 96" fill="none" stroke="#f9f1dd" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" opacity=".96"/>
+  <circle cx="740" cy="264" r="18" fill="#f4d385"/>
+</svg>

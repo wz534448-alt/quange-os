@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="荃哥工作台">
+  <defs>
+    <linearGradient id="night" x1="120" y1="72" x2="900" y2="952" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15243c"/>
+      <stop offset="1" stop-color="#080d17"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="330" y1="250" x2="700" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4d98f"/>
+      <stop offset="1" stop-color="#c88d36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#night)"/>
+  <text x="512" y="700" fill="url(#gold)" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="620" font-weight="900" text-anchor="middle">Q</text>
+</svg>
